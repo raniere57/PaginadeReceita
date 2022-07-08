@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --bgPagina: #EAEAEA;
+    --bgReceita: #FFFFFF;
+    --titSubTit: #1B1B1B;
+    --footLegImg: #8F8F8F;
+    --outros: #39393A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--outros);
+}
+
+body{
+    background-color: var(--bgPagina);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+article{
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-bottom: 120px;
+    background-color: var(--bgReceita);
+    height: 1730px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    padding-top: 85px;
+    padding-bottom: 35px;
+    font-size: 35px;
+    color: var(--titSubTit);
+    text-align: center;
+    font-variant: small-caps;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    background-image: url(waffles.avif);
+    background-position: 0 -300px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    border-radius: 10px;
+    width: 92%;
+    height: 50vh;
+}
+
+figcaption{
+    text-align: right;
+    align-self: flex-end;
+    padding-right: 55px;
+    padding-bottom: 30px;
+}
+
+h2:first-child{
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 27px;
+    color: var(--titSubTit);
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+ol, ul, p{
+    line-height: 50px;
+    font-size: 19px;
+    padding-left: 64px;
+    padding-right: 50px;
+}
+
+figcaption, footer{
+    font-size: 12px;
+    color: var(--footLegImg);
+    margin-bottom: 20px;
+}
+
+
